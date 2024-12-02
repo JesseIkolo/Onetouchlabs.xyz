@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_media_training_medias",
+  "info": {
+    "displayName": "training_media",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "cover_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "background_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "background_decoration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

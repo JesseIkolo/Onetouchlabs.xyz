@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_para_bloc_para_blocs",
+  "info": {
+    "displayName": "para_bloc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_title": {
+      "type": "text"
+    },
+    "para_text": {
+      "type": "text"
+    },
+    "bloc_illustration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

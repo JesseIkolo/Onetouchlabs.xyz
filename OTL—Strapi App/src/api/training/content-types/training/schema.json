@@ -1,0 +1,98 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trainings",
+  "info": {
+    "singularName": "training",
+    "pluralName": "trainings",
+    "displayName": "Training",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "next_date": {
+      "type": "date"
+    },
+    "cadidate_amount": {
+      "type": "integer"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "sub_domain": {
+      "type": "string"
+    },
+    "installation_fee": {
+      "type": "biginteger"
+    },
+    "trainning_fee": {
+      "type": "biginteger"
+    },
+    "alumnies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::alumny.alumny"
+    },
+    "testimonies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimony.testimony"
+    },
+    "training_media": {
+      "displayName": "training_media",
+      "type": "component",
+      "repeatable": false,
+      "component": "media.training-media"
+    },
+    "training_type": {
+      "type": "string"
+    },
+    "Level": {
+      "type": "string"
+    },
+    "requirement": {
+      "type": "text"
+    },
+    "registration_deadline": {
+      "type": "date"
+    },
+    "training_duration": {
+      "type": "integer"
+    },
+    "training_cover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content_bloc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-bloc.text-content"
+    }
+  }
+}

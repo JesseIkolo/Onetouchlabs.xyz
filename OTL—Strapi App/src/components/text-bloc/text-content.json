@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_text_bloc_text_contents",
+  "info": {
+    "displayName": "content_bloc",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_title": {
+      "type": "text"
+    },
+    "text_paragraph": {
+      "type": "text"
+    },
+    "para_bloc": {
+      "displayName": "para_bloc",
+      "type": "component",
+      "repeatable": true,
+      "component": "para-bloc.para-bloc"
+    }
+  }
+}

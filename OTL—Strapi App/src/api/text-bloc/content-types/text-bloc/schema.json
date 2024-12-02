@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_blocs",
+  "info": {
+    "singularName": "text-bloc",
+    "pluralName": "text-blocs",
+    "displayName": "Text_Bloc",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading_title": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "text_bloc": {
+      "displayName": "text_content",
+      "type": "component",
+      "repeatable": true,
+      "component": "text-bloc.text-content"
+    }
+  }
+}

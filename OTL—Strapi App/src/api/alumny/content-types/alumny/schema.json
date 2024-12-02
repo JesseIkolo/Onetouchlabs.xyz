@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumnies",
+  "info": {
+    "singularName": "alumny",
+    "pluralName": "alumnies",
+    "displayName": "Alumny",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "date"
+    },
+    "field_learned": {
+      "type": "string"
+    },
+    "portfolio_url": {
+      "type": "string"
+    },
+    "human": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::human.human"
+    }
+  }
+}

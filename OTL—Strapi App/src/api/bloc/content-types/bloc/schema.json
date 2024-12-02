@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blocs",
+  "info": {
+    "singularName": "bloc",
+    "pluralName": "blocs",
+    "displayName": "Bloc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading_title": {
+      "type": "text"
+    },
+    "text_content": {
+      "type": "richtext"
+    }
+  }
+}

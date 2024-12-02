@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_adress_adresses",
+  "info": {
+    "displayName": "adresses",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "town": {
+      "type": "string"
+    }
+  }
+}
