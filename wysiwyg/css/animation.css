@@ -1,0 +1,33 @@
+
+/*tested on opera 12*/
+@-o-keyframes heartBeat { 
+    0% { transform:scale(.9); }
+    15% { transform:scale(1); }
+    25% { transform:scale(1.1); }
+    35% { transform:scale(1); }
+    100% { transform:scale(.9); }
+}
+/*
+tested on IE9, should work but doesn't :(
+https://developer.mozilla.org/en-US/docs/CSS/transform
+*/
+@-ms-keyframes heartBeat { 
+    0% { transform:scale(.9); }
+    15% { transform:scale(1); }
+    25% { transform:scale(1.1); }
+    35% { transform:scale(1); }
+    100% { transform:scale(.9); }
+}
+/*tested on FF 18*/
+@keyframes heartBeat { 
+    0% { transform:scale(.9); }
+    15% { transform:scale(1); }
+    25% { transform:scale(1.1); }
+    35% { transform:scale(1); }
+    100% { transform:scale(.9); }
+}
+
+
+/* Amas animation */
+
+/* cubic Code : max-width 1.2s cubic-bezier(.19,1,.22,1) .2s */

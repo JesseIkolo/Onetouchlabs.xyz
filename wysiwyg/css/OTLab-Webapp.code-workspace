@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../OTLab—VueApp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "OTLab-Webapp",
+		"liveServer.settings.port": 5501
+	}
+}
