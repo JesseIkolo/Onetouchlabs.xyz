@@ -5,6 +5,7 @@
         <div class="device phone">Made with ❤️ for you Phone by OneTouch Labs </div>
         <div class="device tablet">Made with ❤️ for you Tablette by OneTouch Labs </div>
     </div>
+    {{ msg }}
     
 
     <div class="section hero-slider">

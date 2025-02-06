@@ -1,7 +1,7 @@
 <template>
   <div class="top-space"></div>
   <TopBar />
-  <HeroIntro />
+  <HeroIntro msg="Bonjour"/>
   <TrainingList />
   <FooterSide />
 </template>
